@@ -3,11 +3,11 @@ package com.ms;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TripletsMax {
+public class TripletsSum {
 
     public static void main(String[] args) {
         //int[] nums = {1, 6, 3, 0, 8, 4, 1, 7, 4, 3, 1};
-        int[] nums = {3, 4, 0, 1, 1};
+        int[] nums = {3, 4, 0, 0, 1};
         int sum = 7;
         System.out.println(findTriplets(nums, sum));
     }

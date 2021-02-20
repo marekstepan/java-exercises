@@ -8,24 +8,24 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class TripletsMaxTest {
+public class TripletsSumTest {
 
-  private TripletsMax tripletsMax;
+  private TripletsSum tripletsSum;
 
   @BeforeEach
   public void setUp() throws Exception {
-    tripletsMax = new TripletsMax();
+    tripletsSum = new TripletsSum();
   }
 
   @Test
   public void shouldReturnTriplets() {
-    int[] inputArray = {3,4,0,1, 1};
+    int[] inputArray = {3,4,0,0,1};
     int sum = 7;
-    List<List<Integer>> outputTripletsList = TripletsMax.findTriplets(inputArray, sum);
+    List<List<Integer>> outputTripletsList = tripletsSum.findTriplets(inputArray, sum);
     assertTrue(outputTripletsList.get(0).contains(3));
     assertTrue(outputTripletsList.get(0).contains(4));
     assertTrue(outputTripletsList.get(0).contains(0));
-    assertEquals(1, outputTripletsList.size());
+    assertEquals(2, outputTripletsList.size());
   }
 
 }
