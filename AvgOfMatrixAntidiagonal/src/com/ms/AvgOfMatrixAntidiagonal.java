@@ -1,6 +1,6 @@
 package com.ms;
 
-public class Main {
+public class AvgOfMatrixAntidiagonal {
 
     public static void main(String[] args) {
 	int[][] matrix = {{1, 2, 3}, {3, 4, 6}, {5, 2, 5}};
