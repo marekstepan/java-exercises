@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class VowelsInStringTest {
 
   @Test
-  void countVowels() {
+  void countVowelsTest() {
     String string = "Repeat, he dreams of a doll home";
     assertEquals(11, VowelsInString.countVowels(string));
   }

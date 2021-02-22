@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class UniqueLettersInStringTest {
 
   @Test
-  void getOnlyUniqueLetters() {
+  void getOnlyUniqueLettersTest() {
     String string = "Pearly-dewdrops’ drops";
     List<Character> expectedList = new ArrayList<>();
     expectedList.addAll(Arrays.asList('P', 'E', 'A', 'R', 'L', 'Y', 'D', 'W', 'O', 'S'));
