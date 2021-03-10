@@ -17,6 +17,8 @@ public class Main {
         int upperBound = s.nextInt();
         List<Integer> primeNumbers = listPrimeNumbers(upperBound);
         System.out.println(primeNumbers);
+        double pc = Math.round((double)primeNumbers.size()/(double)upperBound*100) / 100d;
+        System.out.println(pc + " % of prime numbers");
     }
 
     public static List<Integer> listPrimeNumbers(int upperBound) {
