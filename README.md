@@ -1,1 +1,1 @@
-# This repository contains my simple java algorithmic exercises.
+This repository contains my simple java algorithmic exercises.
